@@ -317,6 +317,9 @@ public class Specs {
 
 		// operators
 		["%n + %n",								"r", 8, "+",					"", ""],
+		
+		["%s",								"q", 8, "getValue", "Hello World!"],
+		["Test %x",								"q", 8, "testin"],
 		["%n - %n",								"r", 8, "-",					"", ""],
 		["%n * %n",								"r", 8, "*",					"", ""],
 		["%n / %n",								"r", 8, "/",					"", ""],

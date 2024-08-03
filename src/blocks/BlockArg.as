@@ -80,6 +80,9 @@ public class BlockArg extends Sprite {
 		if (type == 'b') {
 			base = new BlockShape(BlockShape.BooleanShape, c);
 			argValue = false;
+		} else if (type == 'x') {
+			base = new BlockShape(BlockShape.CmdShape, c);
+			argValue = false;
 		} else if (type == 'c') {
 			base = new BlockShape(BlockShape.RectShape, c);
 			this.menuName = 'colorPicker';
